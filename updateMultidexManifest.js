@@ -1,5 +1,5 @@
 module.exports = function(ctx) {
-    var fs = ctx.requireCordovaModule('fs'),
+    var fs = require('fs'),
         path = ctx.requireCordovaModule('path'),
         xml = ctx.requireCordovaModule('cordova-common').xmlHelpers;
 
