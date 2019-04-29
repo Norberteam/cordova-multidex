@@ -1,6 +1,6 @@
 module.exports = function(ctx) {
     var fs = require('fs'),
-        path = ctx.requireCordovaModule('path'),
+        path = require('path'),
         xml = ctx.requireCordovaModule('cordova-common').xmlHelpers;
 
     //manifest path of cordova-android@7+ projects
